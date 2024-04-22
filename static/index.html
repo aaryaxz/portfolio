@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!-- <meta name="viewport" content="width=device-width initial-scale=1"> -->
+
+
+    <title>Portfolio_Website</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+    <nav id="navbar">
+        
+        <div id="heading">
+            <h1 id="word1">Ary<span>Arka</span></h1>
+        </div>
+        <ul style="list-style: none;" id="sidebar">
+            <i class='bx bx-x' onclick="hideSidebar()"></i>
+            <li><a href="#section1" onclick="hideSidebar()">Home</a></li>
+            <li><a href="#section2" onclick="hideSidebar()">About</a></li>
+            <li><a href="#section3" onclick="hideSidebar()">Services</a></li>
+            <li><a href="#section4" onclick="hideSidebar()">Projects</a></li>
+            <li><a href="#section5" onclick="hideSidebar()">Contact</a></li>
+        </ul>
+        <ul style="list-style: none;" id="content">
+            <li><a href="#section1">Home</a></li>
+            <li><a href="#section2">About</a></li>
+            <li><a href="#section3">Services</a></li>
+            <li><a href="#section4">Projects</a></li>
+            <li><a href="#section5">Contact</a></li>
+            <i class="ri-menu-3-line menuIcon" onclick="showSidebar()"></i>
+        </ul>
+    </nav>
+</header>
+    <main>
+        <section id="section1" class="sections">
+            <div id="home_page" class="pages">
+                <div id="left_homepage" class="page1">
+                    <h2>Hello</h2>
+                    <h1>I'm <span>Aarya</span></h1>
+                    <h2>Front-end Developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde optio maiores aut laudantium atque
+                        quaerat.</p>
+                    <button>Let's Talk</button>
+                    <div id="platforms">
+                        <i class='bx bxl-github'></i>
+                        <i class='bx bxl-dribbble bx1'></i>
+                        <i class='bx bxl-linkedin-square bx1'></i>
+                    </div>
+                </div>
+                <div id="right_homepage" class="page1">
+                    <div id="hexagonshape1">
+                        <img src="images/she1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section2" class="sections">
+            <div id="about_page" class="pages">
+                <div id="left_aboutpage" class="page2">
+                    <div id="hexagonshape2">
+                        <div id="hexagonshape3">
+                            <img src="images/she1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div id="right_aboutpage" class="page2">
+                    <p id="word2">My <span>Intro</span></p>
+                    <h1>About Me</h1>
+                    <p id="paragraph1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error minus quisquam ex
+                        assumenda enim quam. Non maxime architecto,ducimus voluptas repellendus!</p>
+                    <button>Contact Me</button>
+                </div>
+            </div>
+            <div id="skill_page" class="pages">
+                <div id="left_skillpage" class="page3">
+                    <p id="word3">Favorite <span>Skills</span></p>
+                    <h1>My Skills</h1>
+                    <p id="paragraph2">Lorem ipsum dolor sit amet, consectetur adipisicing elit ullam here the quam.</p>
+                    <button>See Projects</button>
+                </div>
+                <div id="right_skillpage" class="page3">
+                    <div id="first_column">
+                        <h1><span>01. </span>HTML & CSS</h1>
+                        <h1><span>02. </span>JavaScript</h1>
+                        <h1><span>03. </span>Bootstrap</h1>
+                        <h1><span>04. </span>React</h1>
+                    </div>
+                    <div id="second_column">
+                        <h1><span>05. </span>Git & Github</h1>
+                        <h1><span>06. </span>Figma</h1>
+                        <h1><span>07. </span>Sketch</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section3" class="sections">
+            <div id="service_page" class="pages">
+                <div id="firstPart">
+                    <p id="word4">My <span>Services</span></p>
+                    <h1>What I Do</h1>
+                </div>
+
+                <div id="secondPart">
+                    <div id="serviceBox1" class="serviceBoxes">
+                        <i class='bx bx-layout'></i>
+                        <h2>Web Developer</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde doloribus eos molestias
+                            voluptate. </p>
+                    </div>
+                    <div id="serviceBox2" class="serviceBoxes">
+                        <i class="ri-pantone-line"></i>
+                        <h2>UI/UX Designer</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde doloribus eos molestias
+                            voluptate. </p>
+                    </div>
+                    <div id="serviceBox3" class="serviceBoxes">
+                        <i class="ri-pen-nib-line"></i>
+                        <h2>Graphic Design</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde doloribus eos molestias
+                            voluptate.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section4" class="sections">
+            <div id="projects_page" class="pages">
+                <div id="firstPart">
+                    <p>My <span>Jobs</span></p>
+                    <h1>Recent Projects</h1>
+                </div>
+                <div id="secondPart">
+                    <div id="container">
+                        <div id="item-1" class="items"></div>
+                        <div id="item-2" class="items"></div>
+                        <div id="item-3" class="items"></div>
+                        <div id="item-4" class="items"></div>
+                        <div id="item-5" class="items"></div>
+                        <div id="item-6" class="items"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section5" class="sections">
+            <div id="contact_page">
+                <div id="firstPart">
+                    <p>Get In <span>Touch</span></p>
+                    <h1>Contact Me</h1>
+                </div>
+                <form action="/" method="post" id="secondPart">
+                    <div class="contactStuff">
+                        <div id="item1" class="items">
+                            <input type="text" id="text" name="text" placeholder="Enter your name">
+                            <input type="email" id="email" name="email" placeholder="Enter your email">
+                        </div>
+                        <div id="item2" class="items">
+                            <textarea id="message" cols="30" name="message" rows="10"
+                                placeholder="Enter your message"></textarea>
+                        </div>
+                        <div id="item3">
+
+                        </div>
+
+                        <div id="item4" class="items">
+                            <button>Send Message</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+        <section id="section6" class="sections">
+            <div id="footer" class="pages">
+                <div id="first_column" class="columns">
+                    <h1>Aarya</h1>
+                    <p><span>Front-end </span>Developer</p>
+                </div>
+                <div id="second_column" class="columns">
+                    <i class='bx bxl-facebook-circle'></i>
+                    <i class='bx bxl-instagram'></i>
+                    <i class='bx bxl-twitter'></i>
+                </div>
+                <div id="third_column" class="columns">
+                    <p>
+                        <i class='bx bx-copyright'></i>
+                        Copyright AryArka. All rights reserved
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        document.addEventListener("scroll", () => {
+            const navbar = document.querySelector("nav");
+            if (window.scrollY > 0) {
+                navbar.classList.add("scrolled")
+            } else {
+                navbar.classList.remove("scrolled")
+            }
+        })
+
+        function showSidebar(){
+            const sidebar= document.querySelector("#sidebar");
+            const menuIcon= document.querySelector(".menuIcon");
+            const header = document.querySelector("header");
+            sidebar.classList.toggle("showMenu")
+            menuIcon.style.display= "none";
+            header.classList.toggle("showBefore");
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector("#sidebar");
+            const menuIcon= document.querySelector(".menuIcon");
+            const header = document.querySelector("header");
+            sidebar.classList.remove("showMenu")
+            menuIcon.style.display= "block";
+            header.classList.remove("showBefore");
+        }
+
+    </script>
+</body>
+
+</html>
